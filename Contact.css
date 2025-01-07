@@ -1,0 +1,111 @@
+.infos {
+    text-align: left;
+}
+
+.infotext {
+    font-family: 'RocaL';
+    font-size: 25px;
+    font-weight: 0;
+    margin: 0;
+}
+
+/* Link Styles */
+.ContactGrid a:link {
+    color: black;
+}
+
+.ContactGrid a:visited {
+    color: grey;
+}
+
+.ContactGrid form input[type="text"],
+.ContactGrid form textarea,
+.ContactGrid form input[type="date"] {
+    font-family: 'RocaL';
+    font-weight: bold;
+}
+
+/* Image Styles */
+
+
+.nic {
+    position: absolute;
+    right: 0em;
+    bottom: -39em;
+    width: auto;
+    height: auto;
+}
+
+.ContactGrid {
+    padding: 0.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10em;
+}
+
+form {
+    font-family: 'basicsansSB';
+    margin-top: 3em;
+    color: #444;
+}
+
+.msg {
+    background-color: rgb(235, 235, 235);
+    width: 30em;
+    padding: 10px;
+    margin: 15px;
+    font-family: 'basicsansSB';
+    border-radius: 10px;
+}
+
+.msg {
+    resize: none;
+    height: 20em;
+}
+
+.submit {
+    font-family: 'basicsansSB';
+    text-transform: uppercase;
+    color: black;
+    border-radius: 40px;
+    padding: 5px 5px;
+    border: 2px solid black;
+    transition: background-color 0.3s ease;
+    font-size: 24px;
+    width: 40%;
+}
+
+.submit:hover {
+    background-color: rgb(59, 80, 101);
+    color: white;
+}
+
+.reset {
+    font-family: 'basicsansSB';
+    text-transform: uppercase;
+    color: black;
+    border-radius: 40px;
+    padding: 5px 5px;
+    border: 2px solid black;
+    transition: background-color 0.3s ease;
+    font-size: 24px;
+    width: 40%;
+}
+
+.reset:hover {
+    background-color: rgb(141, 41, 41);
+    color: white;
+}
+
+input {
+    background-color: rgb(235, 235, 235);
+    width: 30em;
+    padding: 10px;
+    margin: 15px;
+    font-family: 'basicsansSB';
+    border-radius: 10px;
+}
+
+.in {
+    margin-top: -0.4em;
+}

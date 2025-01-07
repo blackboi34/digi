@@ -1,0 +1,35 @@
+.Button-Home {
+  font-family: 'basicsansSB';
+  text-transform: uppercase;
+  color: black;
+  border-radius: 40px;
+  padding: 15px 40px;
+  border: 2px solid black;
+  transition: background-color 0.3s ease;
+  margin-left: 17em;
+  margin-right: -14.5em;
+  margin-bottom: 5em;
+  font-size: 24px;
+}
+
+
+.Button-Home:hover {
+  background-color: rgb(59, 80, 101);
+  color: white;
+}
+
+.adam {
+  width: 111.82%;
+  margin-bottom: -17em;
+  margin-left: -5em;
+}
+
+
+.DDC {
+  margin-top: -2.2em;
+  margin-left: 0.8em;
+}
+
+.textmove {
+  margin-bottom: -10em;
+}

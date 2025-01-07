@@ -1,0 +1,226 @@
+@font-face {
+    font-family: basicsansSB;
+    src: url(Fonts/Basic_Sans/Demo_Fonts/Fontspring-DEMO-basicsans-semibold.otf);
+}
+
+@font-face {
+    font-family: RocaL;
+    src: url(Fonts/Roca/Roca\ Light.ttf);
+}
+
+@font-face {
+    font-family: RocaT;
+    src: url(Fonts\Roca\RocaThin.ttf);
+}
+
+/* Body and Header Styles */
+body {
+    margin: 0;
+    background-image: url('Photos/1x/BG.png');
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'RocaL';
+}
+
+main {
+    font-family: 'RocaL';
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    padding-top: 1em;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Logo and Navigation Styles */
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+.logo img {
+    display: block;
+}
+
+nav {
+    float: right;
+    display: flex;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'basicsansSB';
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+/* Heading Styles */
+
+.Heading1 {
+    font-family: 'RocaL';
+    font-size: 95px;
+    line-height: 122px;
+    letter-spacing: 1.1px;
+    margin-top: 1em;
+    color: transparent;
+    -webkit-text-stroke: 0.5px rgb(59, 80, 101);
+}
+
+.Heading2,
+.Heading2-5,
+.Heading3,
+.Heading3-5 {
+    font-family: 'RocaL';
+    font-size: 60px;
+    line-height: 122px;
+    font-weight: 300;
+    margin-top: 1em;
+}
+
+.Heading2-5 {
+    font-size: 45px;
+}
+
+.Heading3 {
+    margin-top: -1em;
+    font-size: 50px;
+}
+
+.Heading3-5 {
+    margin-top: -1em;
+    font-size: 30px;
+
+}
+
+/* Subtext Styles */
+.Subtexts {
+    font-family: 'RocaL';
+    font-size: 23px;
+    font-weight: 100;
+    width: 59%;
+}
+
+.Subtexts2 {
+    font-family: 'RocaL';
+    font-size: 21px;
+    width: 100%;
+    font-weight: 100;
+
+}
+
+.Subtexts3 {
+    font-family: 'RocaL';
+    font-size: 30px;
+    width: 100%;
+    font-weight: 100;
+
+}
+
+.Subtexts4 {
+    font-family: 'RocaL';
+    font-size: 20px;
+    width: 100%;
+    font-weight: 100;
+
+}
+
+/* Paragraph style */
+.Paragraph {
+    font-size: 22px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+/* Footer Styles */
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 5em;
+}
+
+.footer img {
+    margin: 15px;
+    transition: transform 0.3s ease;
+}
+
+.footer img:hover {
+    transform: scale(1.2);
+}
+
+/* button styles */
+
+.Button-Home {
+    font-family: 'basicsansSB';
+    text-transform: uppercase;
+    color: black;
+    border-radius: 40px;
+    padding: 15px 40px;
+    border: 2px solid black;
+    transition: background-color 0.3s ease;
+    margin-left: 2em;
+    margin-top: 2em;
+    font-size: 24px;
+
+}
+
+.Button-Home a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Button-Home:hover {
+    background-color: rgb(59, 80, 101);
+}
+
+.Button-Home:hover a {
+    color: white;
+}

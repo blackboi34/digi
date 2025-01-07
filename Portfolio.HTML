@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="Portfolio.css">
+  <script defer src="sounds.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="Index.html"><img src="Photos/Logo.png" alt="Logo"></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="AboutMe.html">About</a></li>
+          <li><a href="Portfolio.HTML">Projects</a></li>
+          <li><a href="ContactDetails.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="Heading2">
+      My Projects
+    </div>
+    <div class="Subtexts">
+      Welcome to my gallery of projects, each created
+      with my whole heart and hardwork. I invite you to
+      see my creativity and imagination come to life
+    </div>
+    <div class="cat-image">
+      <img src="Photos/ProjectPic1.png" alt="CAT">
+    </div>
+    <!-- Carousel -->
+    <div class="carousel">
+      <div class="carousel-inner">
+        <!-- Input elements representing radio buttons for carousel navigation -->
+        <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+          checked="checked">
+        <div class="carousel-item">
+          <a href="Project1.html"><img src="Photos/pixlr-image-generator-1a456c04-2af4-45ff-b66a-12ccf3db09bd.png"
+              alt="ProjectBanner"></a>
+        </div>
+        <!-- Repeat similar structure for additional carousel items -->
+        <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel-item">
+          <a href="Project2.html"><img src="Photos/Screenshot 2025-01-07 224849.png" alt="whale"></a>
+        </div>
+        <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel-item">
+          <a href="ContactPage.html"><img src="Photos/Screenshot 2025-01-07 231306.png" alt="water"></a>
+        </div>
+        <!-- Navigation control labels -->
+        <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+        <label for="carousel-2" class="carousel-control next control-1">›</label>
+        <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+        <label for="carousel-3" class="carousel-control next control-2">›</label>
+        <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+        <label for="carousel-1" class="carousel-control next control-3">›</label>
+        <!-- Indicator bullets -->
+        <ol class="carousel-indicators">
+          <li>
+            <label for="carousel-1" class="carousel-bullet">•</label>
+          </li>
+          <li>
+            <label for="carousel-2" class="carousel-bullet">•</label>
+          </li>
+          <li>
+            <label for="carousel-3" class="carousel-bullet">•</label>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <section class="Projects">
+
+      <div><a href="Project1.html" target="_blank"><img
+            src="Photos/pixlr-image-generator-1a456c04-2af4-45ff-b66a-12ccf3db09bd.png" alt="Project1"></a><a
+          href="Project1.html" target="_blank">Music Visualisation</a></div>
+      <div><a href="Project2.html" target="_blank"><img src="Photos/Screenshot 2025-01-07 224849.png"
+            alt="Project2"></a><a href="Project2.html" target="_blank">Snake Game</a></div>
+      <div><a href="Project3.html" target="_blank"><img src="Photos/Screenshot 2025-01-07 231306.png"
+            alt="Project3"></a><a href="Project3.html" target="_blank">Hotel Website</a></div>
+      <div><a href="ContactDetails.html"><img src="Photos/Project4.png" alt="Project4"></a>Coming
+        Soon!
+      </div>
+
+    </section>
+
+    <div class="duck">
+      <div class="duck-image">
+        <img src="Photos/ProjectPic2.png" alt="DUCK" id="hoverImage2">
+        <audio id="hoverSound2" preload="auto">
+          <source src="Photos/quak.mp3" type="audio/mp3">
+        </audio>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <a href="https://www.linkedin.com/in/caleb-tinonas-b021222aa/" target="_blank"><img src="Photos/Linkedin.png"
+          alt="Linkedin"></a>
+      <a href="https://www.instagram.com/yoshuanoyaa/" target="_blank"><img src="Photos/Instagram.png"
+          alt="Instagram"></a>
+      <a href="https://twitter.com/TenshokuLame" target="_blank"><img src="Photos/Twitter.png" alt="Twitter"></a>
+    </footer>
+
+
+
+  </main>
+</body>
+
+</html>
