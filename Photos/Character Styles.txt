@@ -1,0 +1,50 @@
+.Heading1
+{
+  font-family : Roca;
+  font-size : 100px;
+  line-height : 122px;
+  letter-spacing : 1.1px;
+  text-outline : #3B5065;
+  text-outline : rgb(59, 80, 101);
+}
+.Button
+{
+  font-family : Basic Sans;
+  font-weight : bold;
+  font-size : 30px;
+  color : #000000;
+  color : rgb(0, 0, 0);
+}
+.Heading2
+{
+  font-family : Roca;
+  font-size : 60px;
+  line-height : 122px;
+}
+.Texts
+{
+  font-family : Roca;
+  font-size : 26px;
+  color : #000000;
+  color : rgb(0, 0, 0);
+}
+.Heading3
+{
+  font-family : Roca;
+  font-size : 30px;
+  color : #000000;
+  color : rgb(0, 0, 0);
+}
+.Subtexts
+{
+  font-family : Roca;
+  font-size : 24px;
+  color : #000000;
+  color : rgb(0, 0, 0);
+}
+.Heading25
+{
+  font-family : Roca;
+  font-size : 70px;
+  line-height : 122px;
+}
